@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Song Player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+
+</head>
+<body style="font-family: 'Indie Flower', cursive; background-color: gray; color: maroon;">
+<center>
+  	<h3 style="font-weight: bolder;">Song Player</h3>
+    <br><br>
+    <h4 class="btn btn-secondary" style="font-size: large; box-shadow:10px 10px 10px maroon;">To play the Peter Pan Theme Song, move your left wrist and to play the Harry Potter Theme Song, move your right wrist.</h4>
+	<br><br><br>
+  
+  <button class="btn btn-primary" onclick = "play1()"style="font-weight: 300; font-size: medium;"> Play Peter Pan </button>
+  <br>
+  <button class="btn btn-primary" onclick = "pause1()"style="font-weight: 300; font-size: medium;"> Pause Peter Pan </button>
+  <br>
+  
+  <button class="btn btn-primary" onclick = "play2()"style="font-weight: 300; font-size: medium;"> Play Harry Potter </button>
+  <br>
+  <button class="btn btn-primary" onclick = "pause2()"style="font-weight: 300; font-size: medium;"> Pause Harry Potter </button>
+
+
+</center>
+
+<script src="main.js"></script>
+</body>
+</html>
